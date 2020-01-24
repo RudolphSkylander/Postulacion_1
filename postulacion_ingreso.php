@@ -47,7 +47,9 @@
 
 		//Se muestra el output mediante un echo debido a la falta de interfaz
 
-		echo "La cantidad de pasajeros viajando en clase First es: " . $first . "<br>La cantidad de pasajeros viajando en clase Business es: " . $business . "<br>La cantidad de pasajeros viajando en clase Economy es: " . $economy;
+		echo "La cantidad de pasajeros viajando en clase First es: " . $first . 
+			"<br>La cantidad de pasajeros viajando en clase Business es: " . $business . 
+			"<br>La cantidad de pasajeros viajando en clase Economy es: " . $economy;
 	}
 
 	//La llamada a la funcion para que se ejecute
